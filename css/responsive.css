@@ -1,0 +1,150 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .mobile-menu {
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .mobile-menu {
+        display: none;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+/* *******************************************
+        	     HEADER CSS
+******************************************* */
+    .mobile-menu {
+        display: block;
+    }
+    .bg-pill {
+        padding: 200px 0;
+    }
+    .header-menu {
+        background: none;
+    }
+/* *******************************************
+        	     SLIDER CSS
+******************************************* */
+    .owl-carousel .owl-item img {
+        height: 50vh;
+    }
+/* *******************************************
+        	     ABOUT CSS
+******************************************* */
+    .about-right {
+        padding-left: 0;
+    }
+    .about-img img {
+        width: 100%;
+    }
+/* *******************************************
+        	    CREATOR CSS
+******************************************* */
+    .creator-left img {
+        width: 300px;
+        height: 300px;
+    }
+    .creator-right p {
+        padding-left: 10px;
+    }
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+/* *******************************************
+        	     HEADER CSS
+******************************************* */
+    .mobile-menu {
+        display: block;
+    }
+    .bg-pill {
+        padding: 100px 0;
+    }
+    .header-menu {
+        background: none;
+    }
+    .mean-container .mean-nav ul li a {
+        font-size: 10px;
+    }
+    .header-logo a img {
+        max-width: 130px;
+    }
+/* *******************************************
+        	     SLIDER CSS
+******************************************* */
+    .owl-carousel .owl-item img {
+        height: 50vh;
+    }
+ /* *******************************************
+        	     ABOUT CSS
+******************************************* */
+    .about-wrapper {
+        display: block;
+    }
+    .about-right {
+        display: block;
+        padding-left: 0;
+    }
+ 
+    .about-img img {
+        width: 100%;
+    }
+    .about-area h1 {
+        text-align: center;
+    }
+    .about-left p {
+        text-align: center;
+    }
+ /* *******************************************
+        	    CREATOR CSS
+******************************************* */
+    .creator-wrapper {
+        display: block;
+    }
+    .creator-area h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+    .creator-left img {
+        width: 100%;
+    }
+    .creator-right p {
+        text-align: center;
+        padding: 40px 15px;
+    }
+/* *******************************************
+        	 ROAD-MAP CSS
+******************************************* */
+    .road-map-wrap h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    .road-map-wrap p {
+        text-align: center;
+    }
+/* *******************************************
+        	     FOOTER CSS
+******************************************* */
+    .footer-wrap h1 {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .footer-area {
+        padding: 50px 0;
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
