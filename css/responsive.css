@@ -42,18 +42,32 @@
     .about-right {
         padding-left: 0;
     }
+    .about-left p {
+        font-size: 18px;
+        padding-right: 10px;
+    }
     .about-img img {
         width: 100%;
     }
 /* *******************************************
-        	    CREATOR CSS
+        	    DESIGNER CSS
 ******************************************* */
-    .creator-left img {
+    .designer-left img {
         width: 300px;
         height: 300px;
     }
-    .creator-right p {
+    .designer-right {
         padding-left: 10px;
+    }
+    .designer-right p {
+        font-size: 18px;
+    }
+    .road-top {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .road-bottom {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0;
     }
 }
 
@@ -84,6 +98,11 @@
     .owl-carousel .owl-item img {
         height: 50vh;
     }
+    .slider-active .owl-dot {
+        height: 15px;
+        margin: 0 5px;
+        width: 15px;
+    }
  /* *******************************************
         	     ABOUT CSS
 ******************************************* */
@@ -100,27 +119,36 @@
     }
     .about-area h1 {
         text-align: center;
+        font-size: 40px;
     }
     .about-left p {
         text-align: center;
+        padding-right: 0;
+        font-size: 18px;
     }
  /* *******************************************
-        	    CREATOR CSS
+        	    DESIGNER CSS
 ******************************************* */
-    .creator-wrapper {
-        display: block;
-    }
-    .creator-area h1 {
+.designer-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+}
+    .designer-area h1 {
         text-align: center;
         font-size: 40px;
     }
-    .creator-left img {
+    .designer-left img {
         width: 100%;
     }
-    .creator-right p {
-        text-align: center;
-        padding: 40px 15px;
+    .designer-right {
+        padding-left: 0;
     }
+    .designer-right p {
+        text-align: center;
+        font-size: 18px;
+        padding: 0 10px;
+    }
+ 
 /* *******************************************
         	 ROAD-MAP CSS
 ******************************************* */
@@ -131,15 +159,28 @@
     .road-map-wrap p {
         text-align: center;
     }
+    .road-top {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .road-bottom {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+    }
 /* *******************************************
         	     FOOTER CSS
 ******************************************* */
-    .footer-wrap h1 {
+    .footer-wrap h2 {
         font-size: 30px;
         margin-bottom: 25px;
     }
     .footer-area {
         padding: 50px 0;
+    }
+    .footer-ico a {
+        font-size: 18px;
+    }
+    .gmail a {
+        font-size: 18px;
     }
 }
  

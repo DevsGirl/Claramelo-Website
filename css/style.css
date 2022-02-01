@@ -5,7 +5,7 @@
 	font-family: 'Roboto', sans-serif;
 	font-weight: normal;
 	font-style: normal;
-	background-color: #FEDCA9;
+	background-color: #FFD184;
 }
 .img {
 	max-width: 100%;
@@ -52,10 +52,10 @@ h5,
 h6 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: normal;
-	color: #CB6546;
+	color: #F89C2C;
 	margin-top: 0px;
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 500;
 	text-transform: uppercase;
 }
 
@@ -78,7 +78,7 @@ p {
 	font-size: 18px;
 	font-weight: normal;
 	line-height: 24px;
-	color: #CB6546;
+	color: #72777C;
 	margin-bottom: 15px;
 }
 
@@ -134,18 +134,18 @@ label {
         	     HEADER CSS
 ******************************************* */
 .bg-pill {
-	background: #FEECD3;
+	background: #FFFFFF;
 	padding: 290px 0;
-	margin-top: 100px;
+	margin-top: 80px;
 	border-radius: 652px;
 }
 
  .header-area {
-	height: 80px;
+	height: 100px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: #FCDBA9;
+	background: #FFD184;
   }
   .header-fl {
 	display: flex;
@@ -153,11 +153,11 @@ label {
 	justify-content: space-between;
   }
   .header-logo a img {
-	max-width: 200px;
+	max-width: 350px;
   }
   .header-menu {
-	background: #FEEDD3;
-	padding: 15px;
+	background: #FFFFFF;
+	padding: 10px;
 	border-radius: 50px;
 }
   .header-menu ul {
@@ -170,62 +170,46 @@ label {
 	margin: 0 10px;
   }
   .header-menu li a {
-	color: #4E61A5;
-  } 
-  .header-menu li:nth-child(2) a  {
-	color: #CB6546;
-}
-  .header-menu li:nth-child(4) a  {
+	color: #F89C2C;
+	font-size: 18px;
 	font-weight: 700;
-}
+  } 
+  .header-menu li a {
+	color: #F89C2C;
+	font-size: 18px;
+	font-weight: 700;
+  } 
+  .header-menu li a:hover {
+	color: #4057A5;
+  } 
+
 /* *******************************************
         	     SLIDER CSS
 ******************************************* */
+.slider-area {
+	padding-top: 120px;
+	text-align: center;
+}
 
 .slider-active .owl-dots{
-	bottom: 15px;
+	bottom: -65px;
 	left: 0;
 	right: 0;
 	position: absolute;
 	text-align: center;
 }
 .slider-active .owl-dot{
-	background: red;
+	background: #FF9A34;
 	border-radius: 50%;
 	display: inline-block;
-	height: 15px;
-	margin: 0 2px;
-	width: 15px;
+	height: 20px;
+	margin: 0 10px;
+	width: 20px;
 }
 .slider-active .owl-dot.active{
-	background: cornflowerblue;
+	background: #2951AB;
 }
-.owl-carousel .owl-nav div {
-	background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
-	height: 40px;
-	left: 20px;
-	line-height: 40px;
-	opacity: 0;
-	position: absolute;
-	text-align: center;
-	top: 50%;
-	transform: translateY(-50%);
-	transition: all 0.3s ease 0s;
-	visibility: hidden;
-	width: 40px;
-}
-.owl-carousel .owl-nav div.owl-next {
-	left: auto;
-	right: 20px;
-}
-.owl-carousel:hover .owl-nav div {
-	opacity: 1;
-	visibility: visible;
-}
-.owl-carousel .owl-nav div:hover {
-	background: #2B96CC;
-	color: #fff
-}
+
  /* *******************************************
         	     ABOUT CSS
 ******************************************* */
@@ -234,39 +218,107 @@ label {
 	grid-template-columns: repeat(2, 1fr);
 }
 .about-left p {
-	font-size: 18px;
+	font-size: 22px;
+	padding-right: 72px;
 }
 .about-right {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	padding-left: 100px;
 }
-.about-img img {
-	width: 50%;
+.about-img-top {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.about-img-top img:nth-child(1) {
+	background: #EEEFDD;
+	border-radius: 100%;
+}
+.about-img-top img:nth-child(2) {
+	background: #B4DD9D;
+	border-radius: 100%;
+}
+.about-img-top img:nth-child(3) {
+	background: #FFCECE;
+	border-radius: 100%;
+}
+.about-img-top img {
+	width: 100%;
+}
+.about-img-bottom {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.about-img-bottom img {
+	width: 100%;
+}
+.about-img-bottom img:nth-child(1) {
+	background: #82A0D3;
+	border-radius: 100%;
+}
+.about-img-bottom img:nth-child(2) {
+	background: #90E0EF;
+	border-radius: 100%;
 }
 
 /* *******************************************
-        	    CREATOR CSS
+        	    DESIGNER CSS
 ******************************************* */
-.creator-area{
+
+.designer-area{
 	padding: 100px 0;
 }
-.creator-left img {
-	width: 513px;
+.designer-left img {
+	width: 400px;
 }
-.creator-wrapper {
+.designer-wrapper {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-.creator-right p {
-	text-align: right;
-	padding-left: 150px;
-	font-size: 18px;
+.designer-right {
+	padding-left: 66px;
 }
-.creator-area h1 {
-	text-align: right;
-	color: #CB6546;
+.designer-right p {
+	text-align: left;
+	font-size: 22px;
+}
+.designer-area h1 {
+	text-align: left;
+}
+/* *******************************************
+        	 ROAD-MAP CSS
+******************************************* */
+.road-map-wrap p.road-map-wrap p b{
+	color: #4057A5;
+}
+.text-color{
+	color: #FF6E3E;
+	display: block;
+}
+.road-map-wrap p  {
+	background: #FFD184;
+	height: 280px;
+	width: 280px;
+	border-radius: 100%;
+	padding: 25px 26px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+}
+.road-top {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 15px;
+}
+.road-bottom {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 0 110px;
 }
 /* *******************************************
         	     FOOTER CSS
@@ -277,14 +329,27 @@ label {
 .footer-ico a {
 	font-size: 30px;
 	margin: 0 5px;
-	color: #4E61A5;
+	color: #F37341;
 }
 .footer-ico a:hover {
-	color: #CB6546;
+	color: #4057A5;
 	transition: .3s;
 }
-.footer-wrap h1 {
-	color: #4E61A5;
+.footer-wrap h2 {
+	font-weight: 500;
+	color: #F37341;
+	text-transform: inherit;
+}
+.gmail {
+margin-top: 50px;
+}
+.gmail a {
+	font-size: 25px;
+	color: #FF9A34;
+}
+.gmail a:hover {
+	color: #4057A5;
+	transition: .3s;
 }
 
   

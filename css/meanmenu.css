@@ -26,7 +26,7 @@
  top:0;
  /*! right:0; */
  cursor:pointer;
- color:#CB6546;
+ color:#F89D2B;
  text-decoration:none;
  font-size:16px;
  /*! text-indent:-9999em; */line-height:22px;
@@ -38,14 +38,14 @@
 }
 .mean-container a.meanmenu-reveal span {
  display:block;
- background:#CB6546 none repeat scroll 0 0;
- height:2px;
+ background:#F89D2B none repeat scroll 0 0;
+ height:3px;
  margin-top:3px
 }
 .mean-container .mean-nav {
 	float: left;
 	width: 346%;
-	background: #FEECD3;
+	background: #fff;
 	margin-top: 5px;
 	position: absolute;
 }
@@ -67,9 +67,9 @@
  padding:1em 5%;
  margin:0;
  text-align:left;
- color:#CB6546;
- border-top:1px solid #383838;
- border-top:1px solid rgba(255,255,255,.5);
+ color:#F89C2C;
+ border-bottom:1px solid #FFD184;
+ border-top:1px solid #FFD184;
  text-decoration:none;
  text-transform:uppercase
 }

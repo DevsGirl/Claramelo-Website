@@ -10,21 +10,19 @@ $('#mobile-menu-active').meanmenu({
 // owlCarousel
 $('.slider-active').owlCarousel({
     loop:true,
-    margin:0,
-	items:1,
-	navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
-    nav:true,
-	dots:false,
+    nav:false,
+    navText:['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
     responsive:{
         0:{
             items:1
         },
-        767:{
+        600:{
             items:1
         },
-        992:{
+        1000:{
             items:1
         }
     }
 })
+
 })(jQuery);

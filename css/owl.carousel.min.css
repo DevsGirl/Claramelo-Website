@@ -47,9 +47,6 @@
  -webkit-touch-callout:none
 }
 .owl-carousel .owl-item img {
- display:block;
- width:100%;
- height: 100vh;
 }
 .owl-carousel .owl-dots.disabled,
 .owl-carousel .owl-nav.disabled {
